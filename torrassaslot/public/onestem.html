@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>On estem – Torrassa Slot Girona</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: #1e1e1e;
+            color: #00ff66;
+            user-select: none;
+        }
+
+        .background {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #1a1a1a, #222, #1c1c1c);
+            background-size: 400% 400%;
+            animation: softGlow 18s ease-in-out infinite;
+            padding: 40px 0;
+        }
+
+        @keyframes softGlow {
+            0%   { background-position: 0% 50%; }
+            50%  { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2.8rem;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+
+        .back-btn {
+            display: block;
+            margin: 0 auto 25px auto;
+            padding: 12px 22px;
+            background: #00ff66;
+            color: black;
+            font-size: 1.2rem;
+            font-weight: 600;
+            border-radius: 8px;
+            text-decoration: none;
+            width: fit-content;
+            transition: 0.3s ease;
+        }
+
+        .back-btn:hover {
+            transform: scale(1.08);
+            background: white;
+        }
+
+        .maps-btn {
+            display: block;
+            margin: 10px auto 35px auto;
+            padding: 12px 22px;
+            background: transparent;
+            color: #00ff66;
+            font-size: 1.2rem;
+            font-weight: 600;
+            border-radius: 8px;
+            text-decoration: none;
+            width: fit-content;
+            border: 2px solid #00ff66;
+            transition: 0.3s ease;
+        }
+
+        .maps-btn:hover {
+            transform: scale(1.08);
+            background: #00ff66;
+            color: black;
+        }
+
+        .info {
+            text-align: center;
+            font-size: 1.1rem;
+            max-width: 700px;
+            margin: 0 auto 40px auto;
+            line-height: 1.6;
+        }
+
+        /* Direcció gran a baix */
+        .address {
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 700;
+            margin-top: 60px;
+            color: #00ff66;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="background">
+
+    <h1>ON ESTEM</h1>
+
+    <a href="index.html" class="back-btn">Tornar a l’inici</a>
+
+    <a href="https://maps.app.goo.gl/QFbVGN2QzSHpHAAr7?g_st=aw" target="_blank" class="maps-btn">
+        Obrir ubicació a Google Maps
+    </a>
+
+    <div class="info">
+        <p>
+            Fes clic al botó per obrir directament la nostra ubicació a Google Maps
+            i obtenir indicacions fins al club Torrassa Slot Girona.
+        </p>
+    </div>
+
+    <!-- Direcció gran a baix -->
+    <div class="address">
+        Pujada a la Torrassa, 32, 17007 Girona
+    </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Reglament GT – Torrassa Slot Girona</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: #1e1e1e;
+            color: #00ff66;
+            user-select: none;
+        }
+
+        .background {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #1a1a1a, #222, #1c1c1c);
+            background-size: 400% 400%;
+            animation: softGlow 18s ease-in-out infinite;
+            padding: 40px 0;
+        }
+
+        @keyframes softGlow {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2.8rem;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+
+        .btn {
+            display: block;
+            margin: 0 auto 25px auto;
+            padding: 12px 22px;
+            background: #00ff66;
+            color: black;
+            font-size: 1.2rem;
+            font-weight: 600;
+            border-radius: 8px;
+            text-decoration: none;
+            width: fit-content;
+            transition: 0.3s ease;
+        }
+
+        .btn:hover {
+            transform: scale(1.08);
+            background: white;
+        }
+
+        iframe {
+            display: block;
+            margin: 0 auto;
+            width: 90%;
+            height: 80vh;
+            border: 2px solid #00ff66;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="background">
+
+    <h1>REGLAMENT GT</h1>
+
+    <a href="reglaments.html" class="btn">Tornar a Reglaments</a>
+    <a href="reglamentgt.pdf" class="btn" download>Descarregar PDF</a>
+
+    <iframe src="reglamentgt.pdf"></iframe>
+
+</div>
+
+</body>
+</html>
