@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>LMP 2025 – Torrassa Slot Girona</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: #1e1e1e;
+            color: #00ff66;
+            user-select: none;
+        }
+
+        .background {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #1a1a1a, #222, #1c1c1c);
+            background-size: 400% 400%;
+            animation: softGlow 18s ease-in-out infinite;
+            padding: 40px 0;
+        }
+
+        @keyframes softGlow {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2.8rem;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+
+        .back-btn {
+            display: block;
+            margin: 0 auto 35px auto;
+            padding: 12px 22px;
+            background: #00ff66;
+            color: black;
+            font-size: 1.2rem;
+            font-weight: 600;
+            border-radius: 8px;
+            text-decoration: none;
+            width: fit-content;
+            transition: 0.3s ease;
+        }
+
+        .back-btn:hover {
+            transform: scale(1.08);
+            background: white;
+        }
+
+        .img-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+        }
+
+        img {
+            width: 70%;
+            max-width: 700px;
+            border-radius: 12px;
+            box-shadow: 0 0 25px rgba(0,255,100,0.4);
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="background">
+
+    <h1>LMP 2025</h1>
+
+    <a href="competicions2025.html" class="back-btn">Tornar a 2025</a>
+
+    <div class="img-container">
+        <img src="resultatlmp.png" alt="Resultats LMP 2025">
+    </div>
+
+</div>
+
+</body>
+</html>
